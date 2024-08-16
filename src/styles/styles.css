@@ -1,0 +1,78 @@
+/* Add this to your CSS file or use a CSS-in-JS solution like styled components */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* light gray background */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; /* white background */
+    border: 1px solid #ddd; /* light gray border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  }
+  
+  h1 {
+    color: #fbfcfd; /* light blue */
+    margin-top: 0;
+    background-color: #2980b9;
+    height: 10vh;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 50vw;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* light gray border */
+    border-radius: 2px;
+    margin-left: 25vw;
+    text-align: center;
+  }
+  
+  .myButton {
+    background-color: #3498db; /* light blue */
+    color: #fff; /* white text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin: 20px;
+  }
+
+  .buttonHolder{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .myButton:hover{
+    background-color: #fff;
+    color: #3498db;
+    transition-duration: 1s;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #2980b9; /* darker light blue */
+  }
+  
+  ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* light gray border */
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  b {
+    color: #3498db; /* light blue */
+  }
