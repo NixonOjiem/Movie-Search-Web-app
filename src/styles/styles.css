@@ -76,3 +76,16 @@ body {
   b {
     color: #3498db; /* light blue */
   }
+  .Image-Holder{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    width: 100vw;
+    height: 100vh; /* Ensure the div has some height */
+  }
+  .image{
+    margin: 0 auto;
+    max-width: 100%; /* Ensures the image scales properly */
+    height: auto; /* Maintains the aspect ratio */
+
+  }

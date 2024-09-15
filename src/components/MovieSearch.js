@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import picture from '../images/MoviePoster.jpg'
 
 class MovieSearch extends Component {
   constructor(props) {
@@ -53,6 +54,9 @@ class MovieSearch extends Component {
     return (
       <div>
         <h1>Movies & TVs Guide app</h1>
+        <div className='Image-Holder'>
+          <img src={picture} className='image' />
+        </div>
         <input
           type="text"
           placeholder="Search for a movie or TV show"
