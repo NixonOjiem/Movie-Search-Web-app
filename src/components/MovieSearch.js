@@ -53,10 +53,20 @@ class MovieSearch extends Component {
   render() {
     return (
       <div>
-        <h1>Movies & TVs Guide app</h1>
+        <div className='Header'>
+          <h1>Movies & TVs Guide app</h1>
+        </div>
+        
+        <div className='Paragraph-holder'>
+        <p className='My-paragraph'>
+        The Movie and TV Show Search application is a user-friendly tool designed to help users quickly find information about their favorite films and series. By simply entering a title, the app fetches key details such as the IMDb score and the release year, providing a concise overview for users to make informed viewing choices. This application simplifies the process of exploring entertainment options, offering a seamless and efficient way to discover and evaluate content.
+        </p>
+        </div>
+        
         <div className='Image-Holder'>
           <img src={picture} className='image' />
         </div>
+        
         <input
           type="text"
           placeholder="Search for a movie or TV show"

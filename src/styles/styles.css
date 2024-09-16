@@ -4,7 +4,9 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f7f7f7; /* light gray background */
   }
-  
+  *{
+    overflow-x: hidden;
+  }
   .container {
     max-width: 800px;
     margin: 40px auto;
@@ -13,11 +15,16 @@ body {
     border: 1px solid #ddd; /* light gray border */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
   }
-  
+  .Header{
+    background-color: #ceca03;
+    width: 100vw;
+    height: auto;
+    position: relative;
+  }
   h1 {
-    color: #fbfcfd; /* light blue */
+    color: #07090a; /* light blue */
     margin-top: 0;
-    background-color: #2980b9;
+    /* background-color: #ceca03; */
     height: 10vh;
     text-align: center;
   }
@@ -33,8 +40,8 @@ body {
   }
   
   .myButton {
-    background-color: #3498db; /* light blue */
-    color: #fff; /* white text */
+    background-color:#ceca03; /* light blue */
+    color: #110d0d; /* white text */
     padding: 10px 20px;
     border: none;
     border-radius: 0px;
@@ -49,13 +56,13 @@ body {
   }
 
   .myButton:hover{
-    background-color: #fff;
-    color: #3498db;
+    background-color: #0c0202;
+    color: #928927;
     transition-duration: 1s;
-  }
+      }
   
   button[type="button"]:hover {
-    background-color: #2980b9; /* darker light blue */
+    background-color: #928927; 
   }
   
   ol {
@@ -74,18 +81,38 @@ body {
   }
   
   b {
-    color: #3498db; /* light blue */
+    color: #ceca03; /* light blue */
   }
   .Image-Holder{
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
     width: 100vw;
-    height: 100vh; /* Ensure the div has some height */
+    height: auto; /* Ensure the div has some height */
   }
   .image{
     margin: 0 auto;
-    max-width: 100%; /* Ensures the image scales properly */
-    height: auto; /* Maintains the aspect ratio */
-
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 15px;
   }
+  .Paragraph-holder{
+    width: 70vw;
+    margin: 0 auto;
+    align-items: center;
+    text-align:justify;
+    position: relative;
+  }
+  .My-paragraph{
+    width: 100%;
+  }
+  @media screen and (max-width: 650px) {
+    .Paragraph-holder{
+      width: 95vw;
+      margin: 0 auto;
+      align-items: center;
+      text-align:justify;
+      position: relative;
+    }
+  } 
+  
