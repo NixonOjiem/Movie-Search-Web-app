@@ -20,12 +20,13 @@ body {
     width: 100vw;
     height: auto;
     position: relative;
+    height: auto;
   }
   h1 {
     color: #07090a; /* light blue */
     margin-top: 0;
     /* background-color: #ceca03; */
-    height: 10vh;
+    height: auto;
     text-align: center;
   }
   
